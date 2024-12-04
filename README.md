@@ -64,3 +64,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+-----
+Kebutuhan perangkat Lunak
+1. composer
+2. Laravel 11
+3. PHP 8.4
+4. Node js versi 24
+
+Database sqllite
