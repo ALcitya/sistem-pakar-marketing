@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite('resources/css/app.css')
     <title>Halaman Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav class="bg-gray-800">
+<nav class="bg-blue-800">
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div class="relative flex h-16 items-center justify-between">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -90,6 +91,21 @@
     </div>
   </div>
 </nav>
-
+<!-- akhir tag blade -->
+<main>
+  <div class="md:container md:mx-auto flex justify-around home-class bg-gradient-to-r from-cyan-300 to-indigo-700 p-2 w-full">
+    <div class="tulisan flex flex-col justify-center items-center text-center">
+      <h3 class="font-bold text-3xl">SELAMAT DATANG DI SISTEM PEMILIHAN DIGITAL MARKETING</h3>
+      <p>Sistem ini dirancang untuk membantu para pelaku bisnis, baik yang baru memulai
+        maupun yang sudah menjalankan usahanya, mengatasi tantangan awal dan mempercepat
+        langkah menuju kesuksesan
+      </p>
+      <button class="box-border rounded-2xl h-auto w-25 p-2 bg-indigo-500 hover:bg-indigo-600 active:bg-indigo-700 mt-5">Konsultasi</button>
+    </div>
+    <div class="gambar">
+      <img class="w-4/5 h-full justify-self-end" src="img/salesman.png" alt="">
+    </div>
+  </div>
+</main>
 </body>
 </html>
