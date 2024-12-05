@@ -8,7 +8,7 @@
 <body>
     <!-- tag untuk komponent navbar -->
     <x-navbar></x-navbar>
-    <!-- untuk komponenr header -->
-     <x-header>Konsultasi</x-header>
+    <!-- untuk komponent header, mengirimkan kata kedalam komponent header -->
+     <x-header>Konsultasi</x-header> 
 </body>
 </html>

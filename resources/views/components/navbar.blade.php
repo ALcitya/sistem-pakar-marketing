@@ -39,10 +39,9 @@
             </div>
             <div class="hidden sm:ml-6 sm:block">
               <div class="flex justify-center items-center gap-3">
-                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                <a href="/home" class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-gray-700">Home</a>
-                <a href="/strategi" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Data Strategi</a>
-                <a href="/konsultasi" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Konsultasi</a>
+                <x-nav-link href="/home" :active="request()-> is('/')">Home</x-nav-link>
+                <x-nav-link href="/strategi" :active="request()-> is('strategi')">Data Strategi</x-nav-link>
+                <x-nav-link href="/konsultasi" :active="request()-> is('konsultasi')">Konsultasi</x-nav-link>
               </div>
             </div>
           </div>
