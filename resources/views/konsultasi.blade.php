@@ -6,6 +6,9 @@
     <title>Halaman Konsultasi</title>
 </head>
 <body>
-    
+    <!-- tag untuk komponent navbar -->
+    <x-navbar></x-navbar>
+    <!-- untuk komponenr header -->
+     <x-header>Konsultasi</x-header>
 </body>
 </html>

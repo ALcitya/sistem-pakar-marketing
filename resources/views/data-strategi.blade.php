@@ -6,6 +6,7 @@
     <title>Halaman Strategi</title>
 </head>
 <body>
-    <h1>ini Halaman strategi</h1>
+  <x-navbar></x-navbar>
+  <x-header>Data Strategi Digital Marketing</x-header>
 </body>
 </html>
