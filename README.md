@@ -67,9 +67,16 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 -----
 Kebutuhan perangkat Lunak
-1. composer
-2. Laravel 11
-3. PHP 8.4
-4. Node js versi 24
-
+1. composer 2.8.3 -above
+   [download]( https://getcomposer.org/download/) <p>klik <strong>Composer-Setup.exe</strong> untuk mulai mendowload </p>
+3. Laravel 11
+   [documentation]( https://laravel.com/docs/11.x)
+5. PHP 8.4
+     [download]( https://windows.php.net/download#php-8.4) <p>pastikan untuk mendownload versi zip</p>
+6. Node js versi 24 -above
+   [download]( https://nodejs.org/en/download/prebuilt-binaries) <p>pilih versi <strong>current</strong> untuk didownload</p>
+7. Laragon
+   [download]( https://laragon.org/download/) <p>Download versi Full</p>
 Database sqllite
+
+## Preparation in laragon
